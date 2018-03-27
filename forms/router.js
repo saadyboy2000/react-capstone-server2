@@ -50,7 +50,7 @@ router.post('/', jsonParser, (req, res) => {
             email: req.body.email,
             age: req.body.age,
             hand: req.body.hand,
-            martial: req.body.marital,
+            marital: req.body.marital,
             interpreter: req.body.interpreter,
             medicalIssue: req.body.medicalIssue,
             presentIllness: req.body.presentIllness,
