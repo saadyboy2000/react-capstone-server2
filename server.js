@@ -19,7 +19,7 @@ const { router: usersRouter } = require('./users');
 const { router: formsRouter } = require('./forms');
 const { router: authRouter, localStrategy, jwtStrategy } = require('./auth');
 
-mongoose.Promise = global.Promise;
+mongoose.Promise = global.Promise; 
 
 /*
 const cors = require('cors');
